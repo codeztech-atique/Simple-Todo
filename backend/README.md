@@ -27,7 +27,7 @@ AWS Lambda <br />
 AWS API Getway <br />
 
 **API URL** <br />
-https://2ocgdhnuwg.execute-api.ap-south-1.amazonaws.com/production
+https://0jocbug339.execute-api.ap-south-1.amazonaws.com/production
 
 **API Documention URL** <br />
-https://documenter.getpostman.com/view/2063706/Tz5m7K1y
+https://documenter.getpostman.com/view/2063706/Tz5qZGni
