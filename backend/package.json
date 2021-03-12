@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-shortener",
+  "version": "1.0.0",
+  "description": "This repo is all about url shortener with nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeztech-atique/nodejs-shortener.git"
+  },
+  "author": "atique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeztech-atique/nodejs-shortener/issues"
+  },
+  "homepage": "https://github.com/codeztech-atique/nodejs-shortener#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "chalk": "^4.1.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.3.1",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "npm": "^7.6.2",
+    "serverless": "^2.9.0"
+  }
+}
