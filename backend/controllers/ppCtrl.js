@@ -80,7 +80,7 @@ exports.fetchOne = (req, res, next) => {
         result: err
       });
     } else {
-      res.status(400).send({
+      res.status(404).send({
         message: "Error",
         error: "Empty Store"
       });
@@ -98,7 +98,7 @@ exports.deleteOne = (req, res, next) => {
           id: req.params.id
         });
       } else if(resp.deletedCount ===  0) {
-        res.status(200).send({
+        res.status(404).send({
           message: 'No data found with the respective id !!!',
         });
       }
