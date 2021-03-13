@@ -20,6 +20,9 @@ Please create a project with CRUD api.
 npm install --save <br />
 node local.js || node local
 
+**Steps to Test the Application** <br />
+npm test
+
 **TechStack I used** <br />
 NodeJS <br />
 MongoDB Cloud <br />

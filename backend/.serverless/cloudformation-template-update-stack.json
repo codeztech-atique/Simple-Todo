@@ -103,7 +103,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/NodeTodoApp/production/1615574842410-2021-03-12T18:47:22.410Z/NodeTodoApp.zip"
+          "S3Key": "serverless/NodeTodoApp/production/1615659167756-2021-03-13T18:12:47.756Z/NodeTodoApp.zip"
         },
         "FunctionName": "NodeTodoApp-production-api",
         "Handler": "lambda.handler",
@@ -122,14 +122,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "ApiLambdaVersion7tNhYZnivEtlgKCbqfhzP3TAOYal6jQT5nbAW2WpyCY": {
+    "ApiLambdaVersion9z19IGTAezbgrIJ07FATvvfAWrg6ScCGrb6KtNVKTA": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "Ig0de+0XLxStsAIy/20m3HwWunlMUrPshcpnWzfuSRM="
+        "CodeSha256": "os5IWjjaUWekJybdYFVX30X37j6Paa0p36Z8wLUW5Aw="
       }
     },
     "ApiGatewayRestApi": {
@@ -247,7 +247,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1615574818799": {
+    "ApiGatewayDeployment1615659133812": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -317,7 +317,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersion7tNhYZnivEtlgKCbqfhzP3TAOYal6jQT5nbAW2WpyCY"
+        "Ref": "ApiLambdaVersion9z19IGTAezbgrIJ07FATvvfAWrg6ScCGrb6KtNVKTA"
       }
     },
     "ServiceEndpoint": {
