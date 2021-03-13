@@ -115,3 +115,25 @@ exports.deleteOne = (req, res, next) => {
     }
   });
 };
+
+exports.updateOne = (req, res, next) => {
+  // console.log(chalk.bgYellowBright("---------------- UrlShorter Information Submitted ----------------"));
+  ttContent.findOneAndUpdate({id: req.body.id}, {$set:{ name:req.body.name, mobile:req.body.mobile}}, {new: true}, async( err, resp) => {
+    if (Object.keys(resp).length) {
+      res.status(200).send({
+        message: 'Successfully Updated !!!',
+        id: req.body.id
+      });
+    } else if(err) {
+      res.status(400).send({
+        message: 'Err !!!',
+        result: err
+      });
+    } else {
+      res.status(404).send({
+        message: "Error",
+        error: "Empty Store"
+      });
+    }
+  });
+};
